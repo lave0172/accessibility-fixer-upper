@@ -1,5 +1,6 @@
 html {
   font-family: Merriweather, serif;
+  font-weight: bold;
 }
 
 .color-brand {
@@ -11,7 +12,7 @@ html {
 }
 
 a {
-  color: #568c36;
+  color: forestgreen;
 }
 
 a:hover {
@@ -19,26 +20,7 @@ a:hover {
 }
 
 a:focus {
-  color: #000;
-}
-
-.skip-links {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.skip-links a {
-  position: absolute;
-  top: -3em;
-}
-
-.skip-links a:focus {
-  top: 0;
-}
-
-.nav a:focus {
-  outline: 2px solid #000;
+  outline: 2px solid #f07b0e;
 }
 
 .masthead {
@@ -61,6 +43,10 @@ a:focus {
 .nav a:hover {
   background-color: #fff;
   color: #113c00;
+}
+
+.nav a:focus {
+  outline: 2px solid #f07b0e;
 }
 
 .about {
